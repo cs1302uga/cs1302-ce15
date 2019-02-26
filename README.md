@@ -1,19 +1,17 @@
 
-# cs1302-ce15 TBD
+# cs1302-ce15 Genericize is stil a Real Word
 
-> Quote TBD
+> And yet to me, what is this quintessence of dust? 
+> **--Hamlet, _Hamlet_ by William Shakespeare**
 
-This class exercise covers introduces the reader to generic methods and .
+This class exercise covers introduces the reader to generic methods.
+It also provides a small demonstration of branching and merging using Git.
 
-## Prerequisite Knowledge
+## References and Prerequisites
 
 * Basic knowledge of Java Generics.
 * [Oracle: Generic Methods](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
 * [Oracle: Bounded Type Parameters](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)
-
-## References
-
-* [`cs1302.util.ArrayUtility` API Documentation](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce14-api/)
 
 ## Questions
 
@@ -26,10 +24,10 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce14`:
+1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce15`:
 
    ```
-   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce14.git
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce15.git
    ```
 
 1. Change into the `cs1302-ce14` directory that was just created and look around. There should be
@@ -42,53 +40,73 @@ command depends on your present working directory), then please note that contex
 
 ### Exercise Steps
 
-1. Examine the static `checkNull` method in the `cs1302.Utility` class. 
+1. Examine the generic static `checkNull` method in the `cs1302.Utility` 
+   class. 
 
-   1. What is the minimum number of parameters that can be used when invoking this method?
+   1. What is the name of the generic type parameter?
+   1. What is the minimum number of parameters that can be used 
+      when invoking this method?
       Provide an example.
-   1. What kind of references are allowed for the variadic parameter of this method? 
-      List two two or three examples.
+   1. What kind of references are allowed for the variadic 
+      parameter of this method? 
+      Be descriptive.
    
-1. Rewrite and document the `checkNull` method so that it only accepts references that are either all
-   the same type or all below a specific type in a hierarchy. **Keep the following in mind:**
-   Your implementation should only require a simple generic type parameter -- an upper bound is not needed.
-   You will need to also rewrite all calls to `checkNull` in other files so that they explicitly 
-   paramterize the method to the appropriate type. No raw types!
+1. Create and checkout a branch called `driver` to perform
+   the work related to this checkpoint. You can do this using
+   the following command:
    
-1. Compile *all of the code*, including your modified `Utility` class, using `bin` as the default package
-   for compiled code. Make sure you compile the classes in the proper order considering the dependencies. 
-   If you encounter any compilation errors, then fix them as you go. Be sure to note interesting errors
-   in your notes for future reference.
+   ```
+   $ git checkout -b driver
+   ```
    
-1. Commit the changes to your local copy of the exercise repository. 
-   Be sure to include a good log message.
+1. Confirm that you are on the desired branch using `git status` and/or
+   `git branch`.
    
-1. Write and document a `Driver` class in the `cs1302.ce14` package. The `main` method should adaquately
-   demonstrate that your `checkNull` method only accepts references that are either all
-   the same type or all below a specific type in a hierarchy. You may make use of the `Shape`, `Ellipse`,
-   and `Circle` classes that are in the same package. Try different statements. **If you do this
-   properly, then compile-time errors are expected** when calls to `checkNull` violate the
-   conditions your earlier modifications adopted. In other words, the changes you made are supposed to
-   prevent the programmer from using your method a particular way. If you encounter any compilation errors:
+1. **NOTE:** When checking the next step, your instructor or PLA will look 
+   at the list of things you tried. You should have a log entry for each. 
+   They will not sign off on this checkpoint if you do 
+   not do the steps above for each and every error as 
+   _errors are expected_ if you perform the steps correctly.
+
+1. **Read the previous step.**
+   Now, write and document a `Driver` class in the `cs1302.ce15` package. 
+   The `main` method should demonstrate that your `checkNull` method 
+   only accepts references that all the same type. Since Java
+   allows for subtype assignment to parent variables, also check that
+   you can supply references to obects that are children of the type 
+   you specifiy. You may make use of the `Shape`, `Ellipse`, and `Circle` 
+   classes that are in the same package. 
+   
+   Try different statements. **If you do this properly, then 
+   compile-time errors are expected** when calls to `checkNull`
+   violate the conditions your earlier modifications adopted. 
+   In other words, the changes you made are supposed to prevent 
+   the programmer from using your method a particular way. 
+   If you encounter any compilation errors:
    
    1. Look at the first error reported by `javac`;
    1. Write down the entire statement that caused the error.
    1. Write the error message down in your notes;
    1. In your notes, denote whether or not this error is expected;
 
-	  1. If **yes**, then keep the line in your code but comment it out, and include the reason why
-	     it's expected in your notes.
+	  1. If **yes**, then keep the line in your code but comment it 
+	     out, and include the reason why it's expected in your notes.
 	  1. If **no**, then fix the error in the code.
 	  
    1. Recompile;
+   1. Stage and commit your changes using Git; and
    1. Repeat as needed. 
-   
-   **NOTE:** Your instructor or PLA will look at the list of things you tried. They will not sign off
-   on this checkpoint if you do not do the steps above for each and every error as _errors are expected_
-   if you perform the steps correctly.
 
-1. Commit the changes to your local copy of the exercise repository. 
-   Be sure to include a good log message.
+1. Now that everything on this branch compiles, ensure that all changes 
+   in the current branch have been staged and committed, then 
+   checkout the `master` branch.
+   
+1. Merge changes from the `driver` branch into the current branch
+   (`master`).
+
+1. View the condensed, graphical version of your Git log using `git adog`
+   What is the entire line of output for the most recent entry produced
+   by the `git adog` command from the previous class exercise?
 
 **CHECKPOINT**
 
@@ -110,11 +128,11 @@ command depends on your present working directory), then please note that contex
    
    We will come back to this code in a few steps.
 
-1. You may have noticed `cs1302-ce14.jar` in the `lib` subdirectory. In your notes, write down the command
+1. You may have noticed `cs1302-ce15.jar` in the `lib` subdirectory. In your notes, write down the command
    to list the contents as well as its output. The API documentation for the compiled code contained in this
    file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce14-api/).
    
-1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce14-api/cs1302/util/ArrayUtility.html#sort-T:A-)
+1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
    method overload in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
    In your notes, answer the following:
    
@@ -149,7 +167,7 @@ command depends on your present working directory), then please note that contex
    you now wanted to sort according to a different ordering (e.g., area or perimeter). You
    would have to edit `Circle.java` again! This is where the other overload for `sort` 
    comes into play. Examine the 
-   [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce14-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
+   [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
    method overload in the `cs1302.util.ArrayUtility` API documentation.
    Actually read the documentation.
    In your notes, answer the following:
@@ -160,7 +178,7 @@ command depends on your present working directory), then please note that contex
    1. What other questions do you have related to this method?
 
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
-   Create a class called `AreaComparator` in the `cs1302.ce14` package that correctly
+   Create a class called `AreaComparator` in the `cs1302.ce15` package that correctly
    implements the comparator required for the overloaded `ArrayUtility.sort` when parameterized 
    to operate on arrays of type `Circle`. The induced ordering for `Circle` objects here should
    be based on their area values, in descending (decreasing) order. 
