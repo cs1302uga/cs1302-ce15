@@ -78,7 +78,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    allows for subtype assignment to parent variables, also check that
    you can supply references to obects that are children of the type 
    you specifiy. You may make use of the `Shape`, `Ellipse`, and `Circle` 
-   classes that are in the same package. 
+   classes that are in the same package. Try other types as well (`String`,
+   `Object`, etc.).
    
    Try different statements. **If you do this properly, then 
    compile-time errors are expected** when calls to `checkNull`
