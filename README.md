@@ -41,6 +41,9 @@ command depends on your present working directory), then please note that contex
 
 ### Exercise Steps
 
+Some of the steps below are similar to the steps in the previous exercise. You are expected
+to start from scratch at this checkpoint with the starter code provided by this exercise.
+
 1. Examine the generic static `checkNull` method in the `cs1302.Utility` 
    class. Yes, this is what the code at the end of the first checkpoint
    in the previous exercise should have looked like.
