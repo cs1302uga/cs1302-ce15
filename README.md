@@ -74,7 +74,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
 1. **Read the previous step.**
    Now, write and document a `Driver` class in the `cs1302.ce15` package. 
    The `main` method should demonstrate that your `checkNull` method 
-   only accepts references that all the same type. Since Java
+   only accepts references that are all the same type. Since Java
    allows for subtype assignment to parent variables, also check that
    you can supply references to obects that are children of the type 
    you specifiy. You may make use of the `Shape`, `Ellipse`, and `Circle` 
