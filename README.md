@@ -1,5 +1,5 @@
 
-# cs1302-ce15 Genericize is stil a Real Word
+# cs1302-ce15 Genericize is still a Real Word
 
 > And yet to me, what is this quintessence of dust? 
 > **--Hamlet, _Hamlet_ by William Shakespeare**
