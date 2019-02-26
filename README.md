@@ -1,8 +1,10 @@
 
 # cs1302-ce15 Genericize is still a Real Word
 
-> And yet to me, what is this quintessence of dust? 
-> **--Hamlet, _Hamlet_ by William Shakespeare**
+> (Sends Dancing Hot Dog Meme)
+> Hotdogs are generic.
+> You have: bagel dogs, brat dogs, cheese dogs, chicago dogs, chili dogs, coney dogs, corn dogs (?), etc.
+> **--Dr. Supa' Mike, after a 12 hour work day.**
 
 This class exercise continues coverage of generic methods, including some checkpoints related to
 upper bounds. 
