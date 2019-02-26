@@ -51,7 +51,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    in the previous exercise should have looked like.
 
    1. What is the complete signature for this method?
-   1. Why is a `@SafeVarargs` annotation needed?
+   1. Why is a [`@SafeVarargs`](https://docs.oracle.com/javase/8/docs/api/java/lang/SafeVarargs.html) annotation needed?
+      Your response does NOT need to be technical.
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
       What requirement must that type satisfy?
    1. What other questions do you have related to this method?
@@ -73,7 +74,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
    not do the steps above for each and every error as 
    _errors are expected_ if you perform the steps correctly.
 
-1. **Read the previous step.**
+1. **Really, please read the previous step before continuing.**
    Now, write and document a `Driver` class in the `cs1302.ce15` package. 
    The `main` method should demonstrate that your `checkNull` method 
    only accepts references that are all the same type. Since Java
@@ -153,7 +154,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    
    1. What is the complete signature for this method?
    1. What is the datatype and role of each method parameter?
-   1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). What requirement must that type satisfy?
+   1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
+      What requirement must that type satisfy?
    1. What other questions do you have related to this method?
    
 1. Let's be confident that `ArrayUtility.sort` works as advertised. Modify your `Driver` class 
@@ -169,6 +171,15 @@ to start from scratch at this checkpoint with the starter code provided by this 
    
    1. What is the complete text of the error?
    1. Why does the method compile for the `strings` array and not the `circles` array? 
+   
+1. Comment out the code that caused the error, save, then stage and commit all changes.
+   
+1. View the condensed, graphical version of your Git log using `git adog`
+   from the previous class exercise.
+   What is the entire line of output for the most recent entry produced
+   by the `git adog` command? 
+   
+**CHECKPOINT**
    
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
    Modify the source code for the `Circle` class so that `Circle` satisfies the requirement to 
