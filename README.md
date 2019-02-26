@@ -169,7 +169,11 @@ to start from scratch at this checkpoint with the starter code provided by this 
 1. View the condensed, graphical version of your Git log using `git adog`
    from the previous class exercise.
    What is the entire line of output for the most recent entry produced
-   by the `git adog` command?    
+   by the `git adog` command?   
+   
+1. **Food for thought** Could we have modified `Shape` instead of `Circle` to allow the `sort`
+   method to sort arrays containing any concrete subclass of `Shape`? If so, would we need to 
+   change how we do the comparisons?
 
 **CHECKPOINT**
 
