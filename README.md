@@ -30,7 +30,7 @@ command depends on your present working directory), then please note that contex
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce15.git
    ```
 
-1. Change into the `cs1302-ce14` directory that was just created and look around. There should be
+1. Change into the `cs1302-ce15` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
    
@@ -130,7 +130,7 @@ command depends on your present working directory), then please note that contex
 
 1. You may have noticed `cs1302-ce15.jar` in the `lib` subdirectory. In your notes, write down the command
    to list the contents as well as its output. The API documentation for the compiled code contained in this
-   file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce14-api/).
+   file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/).
    
 1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
    method overload in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
