@@ -161,8 +161,12 @@ to start from scratch at this checkpoint with the starter code provided by this 
 	 induced ordering is correct by looping through the array referred to by `circles` and 
 	 printing out the return value of `getRadius()`. This should be done after your call to `sort`.
 	 
-1. Commit the changes to your local copy of the exercise repository.
-   Be sure to include a good log message.
+   * **As you go, stage and commit your changes using Git.**
+     Be sure to include a good log message.
+     
+1. View the condensed, graphical version of your Git log using `git adog`
+   What is the entire line of output for the most recent entry produced
+   by the `git adog` command from the previous class exercise?   
 
 **CHECKPOINT**
 
@@ -199,8 +203,12 @@ to start from scratch at this checkpoint with the starter code provided by this 
 	 comparator's induced ordering is correct by looping through the array referred to by `circles` and 
 	 printing out the return value of `getArea()`. This should be done after your call to `sort`.
 
-1. Commit the changes to your local copy of the exercise repository.
-   Be sure to include a good log message.
+   * **As you go, stage and commit your changes using Git.**
+     Be sure to include a good log message.
+   
+1. View the condensed, graphical version of your Git log using `git adog`
+   What is the entire line of output for the most recent entry produced
+   by the `git adog` command from the previous class exercise?   
 
 **CHECKPOINT**
 
