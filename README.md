@@ -109,12 +109,13 @@ to start from scratch at this checkpoint with the starter code provided by this 
    (`master`).
 
 1. View the condensed, graphical version of your Git log using `git adog`
+   from the previous class exercise.
    What is the entire line of output for the most recent entry produced
-   by the `git adog` command from the previous class exercise?
+   by the `git adog` command?
 
 **CHECKPOINT**
 
-1. Delete the code inside of your `Driver` class's `main` method, then commit this change to your 
+1. Delete the code inside of your `Driver` class's `main` method, then stage and commit this change to your 
    local copy of the exercise repository. Don't worry, you can also checkout what you had before because
    you committed your earlier changes while working on the previous checkpoint.
    
@@ -165,8 +166,9 @@ to start from scratch at this checkpoint with the starter code provided by this 
      Be sure to include a good log message.
      
 1. View the condensed, graphical version of your Git log using `git adog`
+   from the previous class exercise.
    What is the entire line of output for the most recent entry produced
-   by the `git adog` command from the previous class exercise?   
+   by the `git adog` command?    
 
 **CHECKPOINT**
 
@@ -207,8 +209,9 @@ to start from scratch at this checkpoint with the starter code provided by this 
      Be sure to include a good log message.
    
 1. View the condensed, graphical version of your Git log using `git adog`
+   from the previous class exercise.
    What is the entire line of output for the most recent entry produced
-   by the `git adog` command from the previous class exercise?   
+   by the `git adog` command?   
 
 **CHECKPOINT**
 
