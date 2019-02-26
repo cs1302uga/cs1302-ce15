@@ -120,15 +120,22 @@ to start from scratch at this checkpoint with the starter code provided by this 
    local copy of the exercise repository. Don't worry, you can also checkout what you had before because
    you committed your earlier changes while working on the previous checkpoint.
    
-1. Add the following code to your `Driver` class's `main` method, make sure it compiles, then 
+1. Now add the following code to your `Driver` class's `main` method, make sure it compiles, then 
    commit this change to your local copy of the exercise repository.
    
-   ```java
+   ```
+   String[] strings = new String[] {
+       "bb",
+       "aa",
+       "dd",
+       "cc"
+   };
+   
    Circle[] circles = new Circle[] {
-	   new Circle(5.0),
-	   new Circle(3.3),
-	   new Circle(4.1),
-	   new Circle(1.2)
+       new Circle(5.0),
+       new Circle(3.3),
+       new Circle(4.1),
+       new Circle(1.2)
    };
    ```
    
@@ -146,6 +153,20 @@ to start from scratch at this checkpoint with the starter code provided by this 
    1. What is the datatype and role of each method parameter?
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). What requirement must that type satisfy?
    1. What other questions do you have related to this method?
+   
+1. Let's be confident that `ArrayUtility.sort` works as advertised. Modify your `Driver` class 
+   to print out the contents of the `strings` array _before_ and _after_ calling
+   `ArrayUtility.sort` on it.
+   
+   * Be sure to compile and run your driver to test it.
+   * **As you go, stage and commit your changes using Git.**
+     Be sure to include a good log message.
+
+1. Now try to do the same thing with the `circles` array. When printing a `Circle`, print
+   its radius. When you get a compile error, please note the following:
+   
+   1. What is the complete text of the error?
+   1. Why does the method compile for the `strings` array and not the `circles` array? 
    
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
    Modify the source code for the `Circle` class so that `Circle` satisfies the requirement to 
