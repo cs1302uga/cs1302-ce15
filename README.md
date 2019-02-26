@@ -4,7 +4,8 @@
 > And yet to me, what is this quintessence of dust? 
 > **--Hamlet, _Hamlet_ by William Shakespeare**
 
-This class exercise covers introduces the reader to generic methods.
+This class exercise continues coverage of generic methods, including some checkpoints related to
+upper bounds. 
 It also provides a small demonstration of branching and merging using Git.
 
 ## References and Prerequisites
