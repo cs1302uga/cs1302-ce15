@@ -42,15 +42,14 @@ command depends on your present working directory), then please note that contex
 ### Exercise Steps
 
 1. Examine the generic static `checkNull` method in the `cs1302.Utility` 
-   class. 
+   class. Yes, this is what the code at the end of the first checkpoint
+   in the previous exercise should have looked like.
 
-   1. What is the name of the generic type parameter?
-   1. What is the minimum number of parameters that can be used 
-      when invoking this method?
-      Provide an example.
-   1. What kind of references are allowed for the variadic 
-      parameter of this method? 
-      Be descriptive.
+   1. What is the complete signature for this method?
+   1. Why is a `@SafeVarargs` annotation needed?
+   1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
+      What requirement must that type satisfy?
+   1. What other questions do you have related to this method?
    
 1. Create and checkout a branch called `driver` to perform
    the work related to this checkpoint. You can do this using
@@ -90,9 +89,10 @@ command depends on your present working directory), then please note that contex
    1. Write the error message down in your notes;
    1. In your notes, denote whether or not this error is expected;
 
-	  1. If **yes**, then keep the line in your code but comment it 
-	     out, and include the reason why it's expected in your notes.
-	  1. If **no**, then fix the error in the code.
+      1. If **yes**, then keep the line in your code but comment it 
+	 out, and include the reason why it's expected in your notes.
+	 
+      1. If **no**, then fix the error in the code.
 	  
    1. Recompile;
    1. Stage and commit your changes using Git; and
