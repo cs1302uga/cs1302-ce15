@@ -3,7 +3,7 @@ package cs1302.ce15;
 import cs1302.Utility;
 
 /**
- * This class represents an abstract shape. 
+ * This class represents an abstract shape.
  */
 public abstract class Shape {
 
@@ -11,7 +11,7 @@ public abstract class Shape {
     private String name;
 
     /**
-     * Sets the name of the shape. This method imposes certain preconditions on the value of 
+     * Sets the name of the shape. This method imposes certain preconditions on the value of
      * {@code name}. If a precondition is violated, then an unchecked exception is thrown.
      *
      * @param name the name of the shape
@@ -19,21 +19,21 @@ public abstract class Shape {
      * @throws IllegalArgumentException if {@code name} is an empty string
      */
     protected void setName(String name) {
-	Utility.<String>checkNull("setName", name);
-	if (name.isEmpty()) {
-	    throw new IllegalArgumentException("name cannot be an empty string");
-	} else {
-	    this.name = name;
-	} // if
+        Utility.<String>checkNull("setName", name);
+        if (name.isEmpty()) {
+            throw new IllegalArgumentException("name cannot be an empty string");
+        } else {
+            this.name = name;
+        } // if
     } // setName
 
     /**
      * Returns the name of this shape.
-     * 
+     *
      * @return the name of this shape
      */
     public String getName() {
-	return name;
+        return name;
     } // getName
 
     /**
@@ -52,4 +52,3 @@ public abstract class Shape {
     public abstract double getPerimeter();
 
 } // Shape
-
