@@ -10,6 +10,12 @@ This class exercise continues coverage of generic methods, including some checkp
 upper bounds. 
 It also provides a small demonstration of branching and merging using Git.
 
+## Course-Specific Learning Outcomes
+
+* **LO2.d:** (Partial) Implement new generic methods, interfaces, and classes in a software solution.
+* **LO5.a:** (Partial) Utilize a version control tool such as Git or Subversion to store and
+update source code in a multi-programmer software solution.
+
 ## References and Prerequisites
 
 * Basic knowledge of Java Generics.
