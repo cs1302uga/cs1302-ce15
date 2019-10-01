@@ -85,9 +85,20 @@ to start from scratch at this checkpoint with the starter code provided by this 
    only accepts references that are all the same type. Since Java
    allows for subtype assignment to parent variables, also check that
    you can supply references to obects that are children of the type 
-   you specifiy. You may make use of the `Shape`, `Ellipse`, and `Circle` 
+   you specify. You may make use of the `Shape`, `Ellipse`, and `Circle` 
    classes that are in the same package. Try other types as well (`String`,
    `Object`, etc.).
+   
+   Come up with at least six different calls to the `checkNull` method:
+      * 2 calls should compile and run properly. For each call, pass in a set
+        of values of the same datatype. This type should vary across the two
+	calls but not within a single call.
+      * 2 calls should compile and run properly using different datatypes to
+        each call.
+	
+	
+
+      
    
    Try different statements. **If you do this properly, then 
    compile-time errors are expected** when calls to `checkNull`
