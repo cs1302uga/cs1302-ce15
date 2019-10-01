@@ -53,15 +53,14 @@ Some of the steps below are similar to the steps in the previous exercise. You a
 to start from scratch at this checkpoint with the starter code provided by this exercise.
 
 1. Examine the generic static `checkNull` method in the `cs1302.Utility` 
-   class. Yes, this is what the code at the end of the first checkpoint
-   in the previous exercise should have looked like.
+   class.
 
    1. What is the complete signature for this method?
-   1. Why is a [`@SafeVarargs`](https://docs.oracle.com/javase/8/docs/api/java/lang/SafeVarargs.html) annotation needed?
-      Your response does NOT need to be technical.
+   1. In previous exercises, the `checkNull` method was not generic. Instead, it used `Object` as
+      the type of the varargs parameter. How is the generic version different? Feel free to use
+      a specific example in your explanation.
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
       What requirement must that type satisfy?
-   1. What other questions do you have related to this method?
    
 1. Create and checkout a branch called `driver` to perform
    the work related to this checkpoint. You can do this using
