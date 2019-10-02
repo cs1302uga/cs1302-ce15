@@ -89,14 +89,15 @@ to start from scratch at this checkpoint with the starter code provided by this 
    classes that are in the same package. Try other types as well (`String`,
    `Object`, etc.).
    
-   Try at least 5 statements with various types. Make sure at least two of your calls
+   Try at least 5 statements with various types. Feel free to use the objects that
+   are provided in `Driver.java`. Make sure at least two of your calls
    to `checkNull` result in compile-time errors. 
 
    When you encounter compilation errors:
    
    1. Look at the first error reported by `javac`;
    1. Write down the entire statement (instruction) that caused the error.
-   1. Write the error message down in your notes;
+   1. Summarize the error message down in your notes;
    1. In your notes, denote whether or not this error is expected;
 
       1. If **yes**, then keep the line in your code but comment it 
@@ -122,9 +123,10 @@ to start from scratch at this checkpoint with the starter code provided by this 
 
 **CHECKPOINT**
 
-1. Delete the code inside of your `Driver` class's `main` method, then stage and commit this change to your 
-   local copy of the exercise repository. Don't worry, you can also checkout what you had before because
-   you committed your earlier changes while working on the previous checkpoint.
+1. Delete all of the code contained in your `Driver` class's `main` method (including what was there in 
+   the beginning), then stage and commit this change to your local copy of the exercise repository. Don't 
+   worry, you can also checkout what you had before because you committed your earlier changes while working 
+   on the previous checkpoint.
    
 1. Now add the following code to your `Driver` class's `main` method, make sure it compiles, then 
    commit this change to your local copy of the exercise repository.
@@ -147,32 +149,36 @@ to start from scratch at this checkpoint with the starter code provided by this 
    
    We will come back to this code in a few steps.
 
-1. You may have noticed `cs1302-ce15.jar` in the `lib` subdirectory. In your notes, write down the command
-   to list the contents as well as its output. The API documentation for the compiled code contained in this
-   file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/).
+1. You may have noticed `cs1302-ce15.jar` in the `lib` subdirectory. Use the `jar` command along with the `-tf`
+   and the relative path to the file to output a list of the file's contents to the terminal. In your notes, 
+   write down the name of the class file contained in the jar file. The API documentation for the compiled code 
+   contained in this file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/).
    
 1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
-   method overload in the `cs1302.util.ArrayUtility` API documentation. Actually read the documentation.
+   method overload in the `cs1302.util.ArrayUtility` API documentation. Read the full paragraph 
+   under the "Method Detail" section.
+   
    In your notes, answer the following:
    
    1. What is the complete signature for this method?
    1. What is the datatype and role of each method parameter?
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
       What requirement must that type satisfy?
-   1. What other questions do you have related to this method?
    
 1. Let's be confident that `ArrayUtility.sort` works as advertised. Modify your `Driver` class 
    to print out the contents of the `strings` array _before_ and _after_ calling
-   `ArrayUtility.sort` on it.
+   `ArrayUtility.sort` on it. You may find it helpful to write a generic static method in
+   the `Driver` class that prints an array of any type. Also, don't forget to put the
+   jar file on your classpath!
    
    * Be sure to compile and run your driver to test it.
    * **As you go, stage and commit your changes using Git.**
      Be sure to include a good log message.
 
 1. Now try to do the same thing with the `circles` array. When printing a `Circle`, print
-   its radius. When you get a compile error, please note the following:
+   its radius. When you get a compile error, please read the **entire** error message and:
    
-   1. What is the complete text of the error?
+   1. Summarize the error message in your notes.
    1. Why does the method compile for the `strings` array and not the `circles` array? 
    
 1. Comment out the code that caused the error, save, then stage and commit all changes.
