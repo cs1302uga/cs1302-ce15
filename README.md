@@ -203,10 +203,16 @@ to start from scratch at this checkpoint with the starter code provided by this 
      correctly by appropriately calling `ArrayUtility.sort` on the array referred to by `circles`
      in your `Driver` class's `main` method. You will know that you satisfy the type requirement
      when the `Driver` class compiles.
-	 
+     
+   * The method that you need to implement should return an `int` value depending on
+     how the calling object's area relates to the area of another object referred to by a
+     method parameter. You can supply both radius values to the static 
+     [`Double.compare`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#compare-double-double-)
+     method in a particular order to get the desired `int` value. 
+     
    * Once you are sure that the type requirement is being satisfied, you can test that your
-	 induced ordering is correct by looping through the array referred to by `circles` and 
-	 printing out the return value of `toString()`. This should be done after your call to `sort`.
+     induced ordering is correct by looping through the array referred to by `circles` and 
+     printing out the return value of `toString()`. This should be done after your call to `sort`.
 	 
    * **As you go, stage and commit your changes using Git.**
      Be sure to include a good log message.
