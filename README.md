@@ -152,9 +152,11 @@ to start from scratch at this checkpoint with the starter code provided by this 
 1. You may have noticed `cs1302-ce15.jar` in the `lib` subdirectory. Use the `jar` command along with the `-tf`
    and the relative path to the file to output a list of the file's contents to the terminal. In your notes, 
    write down the name of the class file contained in the jar file. The API documentation for the compiled code 
-   contained in this file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/).
+   contained in this file can be found [here](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/)
+   [[mirror]](https://michaelcotterell.com/cs1302-ce15-api/).
    
 1. Examine the [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
+   [[mirror]](https://michaelcotterell.com/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-)
    method overload in the `cs1302.util.ArrayUtility` API documentation. Read the full paragraph 
    under the "Method Detail" section.
    
@@ -226,7 +228,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    would have to edit `Circle.java` again! This is where the other overload for `sort` 
    comes into play. Examine the 
    [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
-   method overload in the `cs1302.util.ArrayUtility` API documentation.
+   method overload in the `cs1302.util.ArrayUtility` API documentation 
+   [[mirror]](https://michaelcotterell.com/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-).
    Actually read the documentation.
    In your notes, answer the following:
    
