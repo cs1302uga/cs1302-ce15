@@ -205,7 +205,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
      when the `Driver` class compiles.
      
    * The method that you need to implement should return an `int` value depending on
-     how the calling object's area relates to the area of another object referred to by a
+     how the calling object's radius relates to the radius of another object referred to by a
      method parameter. You can supply both radius values to the static 
      [`Double.compare`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#compare-double-double-)
      method in a particular order to get the desired `int` value. 
