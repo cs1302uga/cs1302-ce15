@@ -204,7 +204,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
 	 
    * Once you are sure that the type requirement is being satisfied, you can test that your
 	 induced ordering is correct by looping through the array referred to by `circles` and 
-	 printing out the return value of `getRadius()`. This should be done after your call to `sort`.
+	 printing out the return value of `toString()`. This should be done after your call to `sort`.
 	 
    * **As you go, stage and commit your changes using Git.**
      Be sure to include a good log message.
