@@ -80,8 +80,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    _errors are expected_ if you perform the steps correctly.
 
 1. **Really, please read the previous step before continuing.**
-   Now, write and document a `Driver` class in the `cs1302.ce15` package. 
-   The `main` method should demonstrate that your `checkNull` method 
+   Now, open the `Driver` class found in the `cs1302.ce15` package. 
+   Write code in the `main` method to demonstrate that the `checkNull` method 
    only accepts references that are all the same type. Since Java
    allows for subtype assignment to parent variables, also check that
    you can supply references to obects that are children of the type 
@@ -89,15 +89,13 @@ to start from scratch at this checkpoint with the starter code provided by this 
    classes that are in the same package. Try other types as well (`String`,
    `Object`, etc.).
    
-   Try different statements. **If you do this properly, then 
-   compile-time errors are expected** when calls to `checkNull`
-   violate the conditions your earlier modifications adopted. 
-   In other words, the changes you made are supposed to prevent 
-   the programmer from using your method a particular way. 
-   If you encounter any compilation errors:
+   Try at least 5 statements with various types. Make sure at least two of your calls
+   to `checkNull` result in compile-time errors. 
+
+   When you encounter compilation errors:
    
    1. Look at the first error reported by `javac`;
-   1. Write down the entire statement that caused the error.
+   1. Write down the entire statement (instruction) that caused the error.
    1. Write the error message down in your notes;
    1. In your notes, denote whether or not this error is expected;
 
