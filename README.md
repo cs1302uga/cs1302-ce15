@@ -163,7 +163,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
    In your notes, answer the following:
    
    1. What is the complete signature for this method?
-   1. What is the datatype and role of each method parameter?
+   1. What is the datatype and purpose/role of each method parameter?
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). 
       What requirement must that type satisfy?
    
@@ -236,13 +236,12 @@ to start from scratch at this checkpoint with the starter code provided by this 
    [`ArrayUtility.sort(T[], Comparator<T>)`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-)
    method overload in the `cs1302.util.ArrayUtility` API documentation 
    [[mirror]](https://michaelcotterell.com/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-java.util.Comparator-).
-   Actually read the documentation.
+   Read the full paragraph under the "Method Detail" section.
    In your notes, answer the following:
    
    1. What is the complete signature for this method?
-   1. What is the datatype and role of each method parameter?
+   1. What is the datatype and purpose/role of each method parameter?
    1. Suppose you want to parameterize `T` (i.e., replace it with some specific type). What requirement must that type satisfy?
-   1. What other questions do you have related to this method?
 
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
    Create a class called `AreaComparator` in the `cs1302.ce15` package that correctly
