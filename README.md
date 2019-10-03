@@ -1,6 +1,8 @@
 
 # cs1302-ce15 Genericize is still a Real Word
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > (Sends Dancing Hot Dog Meme)
 > Hotdogs are generic.
 > You have: bagel dogs, brat dogs, cheese dogs, chicago dogs, chili dogs, coney dogs, corn dogs (?), etc.
