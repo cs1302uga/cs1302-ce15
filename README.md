@@ -2,6 +2,8 @@
 # cs1302-ce15 Genericize is still a Real Word
 
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+<!--![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)-->
 
 > (Sends Dancing Hot Dog Meme)
 > Hotdogs are generic.
@@ -20,7 +22,8 @@ update source code in a multi-programmer software solution.
 
 ## References and Prerequisites
 
-* Basic knowledge of Java Generics.
+* [1302 Generic Classes Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/generics/generic-classes/generic-classes.md)
+* [1302 Generic Methods Reading](https://github.com/cs1302uga/cs1302-tutorials/blob/master/generics/generic-methods/generic-methods.md)
 * [Oracle: Generic Methods](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
 * [Oracle: Bounded Type Parameters](https://docs.oracle.com/javase/tutorial/java/generics/bounded.html)
 
@@ -86,7 +89,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
    Write code in the `main` method to demonstrate that the `checkNull` method 
    only accepts references that are all the same type. Since Java
    allows for subtype assignment to parent variables, also check that
-   you can supply references to obects that are children of the type 
+   you can supply references to objects that are children of the type 
    you specify. You may make use of the `Shape`, `Ellipse`, and `Circle` 
    classes that are in the same package. Try other types as well (`String`,
    `Object`, etc.).
@@ -115,6 +118,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    in the current branch have been staged and committed, then 
    checkout the `master` branch.
    
+1. Make sure all of your code passes the `checkstyle` audit.
+
 1. Merge changes from the `driver` branch into the current branch
    (`master`).
 
@@ -224,6 +229,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    What is the entire line of output for the most recent entry produced
    by the `git adog` command?   
    
+1. Make sure all code passes `checkstyle`.
+   
 1. **Food for thought** Could we have modified `Shape` instead of `Circle` to allow the `sort`
    method to sort arrays containing any concrete subclass of `Shape`? If so, would we need to 
    change how we do the comparisons?
@@ -270,6 +277,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
    from the previous class exercise.
    What is the entire line of output for the most recent entry produced
    by the `git adog` command?   
+   
+1. Make sure all code passes `checkstyle`.
 
 **CHECKPOINT**
 
