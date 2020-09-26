@@ -1,8 +1,7 @@
 
 # cs1302-ce15 Genericize is still a Real Word
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
-![Max Group Size: 3](https://img.shields.io/badge/Max%20Group%20Size-3-important)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 > (Sends Dancing Hot Dog Meme)
 > Hotdogs are generic.
@@ -29,7 +28,7 @@ update source code in a multi-programmer software solution.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
@@ -37,7 +36,7 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce15`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce15`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce15.git
@@ -51,7 +50,9 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
 
-### Exercise Steps
+## Exercise Steps
+
+### Checkpoint 1 Steps
 
 Some of the steps below are similar to the steps in the previous exercise. You are expected
 to start from scratch at this checkpoint with the starter code provided by this exercise.
@@ -127,7 +128,13 @@ to start from scratch at this checkpoint with the starter code provided by this 
    What is the entire line of output for the most recent entry produced
    by the `git adog` command?
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 1. Delete all of the code contained in your `Driver` class's `main` method (including what was there in 
    the beginning), then stage and commit this change to your local copy of the exercise repository. Don't 
@@ -196,8 +203,14 @@ to start from scratch at this checkpoint with the starter code provided by this 
    What is the entire line of output for the most recent entry produced
    by the `git adog` command? 
    
-**CHECKPOINT**
-   
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps
+
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
    Modify the source code for the `Circle` class so that `Circle` satisfies the requirement to 
    replace `T` when calling `ArrayUtility.sort`. Your modification should result in the induced
@@ -213,7 +226,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
    * The method that you need to implement should return an `int` value depending on
      how the calling object's radius relates to the radius of another object referred to by a
      method parameter. You can supply both radius values to the static 
-     [`Double.compare`](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#compare-double-double-)
+     [`Double.compare`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Double.html#compare(double,double))
      method in a particular order to get the desired `int` value. 
      
    * Once you are sure that the type requirement is being satisfied, you can test that your
@@ -234,7 +247,13 @@ to start from scratch at this checkpoint with the starter code provided by this 
    method to sort arrays containing any concrete subclass of `Shape`? If so, would we need to 
    change how we do the comparisons?
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 4 Steps
 
 1. In the previous checkpoint, you were able to modify the `Circle` class so that arrays of
    circles can be sorted using `ArrayUtility.sort`. However, consider what would happen if
@@ -279,9 +298,54 @@ to start from scratch at this checkpoint with the starter code provided by this 
    
 1. Make sure all code passes `checkstyle`.
 
-**CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-4-success?style=for-the-badge)
 
 <hr/>
+
+### Submission Steps
+
+**Each student needs to individually submit their own work.**
+
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce15`
+   directory with the following information.
+
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. If you created the API website, include the full link to the site you generated.
+   
+   Here is an example of the contents of `SUBMISSION.md`.
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe Allen, Stacie Mack
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce15-doc
+   ```
+
+1. Change directories to the parent of `cs1302-ce15` (e.g., `cd ..` from `cs1302-ce15`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce15 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
+
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
+
+<hr/>
+
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
