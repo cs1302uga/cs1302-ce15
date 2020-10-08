@@ -213,8 +213,8 @@ to start from scratch at this checkpoint with the starter code provided by this 
 
 1. **[TRICKY]** _Read this entire step, including substeps, very carefully before attempting it._ 
    Modify the source code for the `Circle` class so that `Circle` satisfies the requirement to 
-   replace `T` when calling `ArrayUtility.sort`. Your modification should result in the induced
-   ordering for `Circle` objects to be based on their radius values, in ascending (increasing)
+   replace `T` when calling [`ArrayUtility.sort(T[])`](http://cobweb.cs.uga.edu/~mec/cs1302/cs1302-ce15-api/cs1302/util/ArrayUtility.html#sort-T:A-). 
+   Your modification should result in the induced ordering for `Circle` objects to be based on their radius values, in ascending (increasing)
    order. 
    
    * As you attempt this, remember that the goal is to allow the `T` to be replaced with `Circle`
