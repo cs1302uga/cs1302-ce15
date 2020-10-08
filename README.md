@@ -284,7 +284,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
 	 by `circles` in your `Driver` class's `main` method. You will know that it is syntactically correct 
      	when the `Driver` class compiles.
 	 
-   * Once you are sure that comparator class is syntactially correct, then you can test that your
+   * Once you are sure that comparator class is syntactically correct, then you can test that your
 	 comparator's induced ordering is correct by looping through the array referred to by `circles` and 
 	 printing out the return value of `getArea()`. This should be done after your call to `sort`.
 
