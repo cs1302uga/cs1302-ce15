@@ -144,7 +144,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
 1. Now add the following code to your `Driver` class's `main` method, make sure it compiles, then 
    commit this change to your local copy of the exercise repository.
    
-   ```
+   ```java
    String[] strings = new String[] {
        "bb",
        "aa",
