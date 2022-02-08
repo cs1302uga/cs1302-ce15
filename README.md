@@ -226,7 +226,7 @@ to start from scratch at this checkpoint with the starter code provided by this 
    * The method that you need to implement should return an `int` value depending on
      how the calling object's radius relates to the radius of another object referred to by a
      method parameter. You can supply both radius values to the static 
-     [`Double.compare`](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Double.html#compare(double,double))
+     [`Double.compare`](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Double.html#compare(double,double))
      method in a particular order to get the desired `int` value. 
      
    * Once you are sure that the type requirement is being satisfied, you can test that your
